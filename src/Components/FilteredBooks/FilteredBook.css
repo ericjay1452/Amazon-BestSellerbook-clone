@@ -1,0 +1,10 @@
+.row2 {
+    border:  1px solid #ddd;
+    margin-top:  15px !important;
+}
+
+.wrapper {
+    display:  flex !important;
+    /* justify-content: space-between; */
+
+}

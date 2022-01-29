@@ -1,17 +1,31 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDom from 'react-dom';
+import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+// /import bootstrap from 'bootstrap';
+import IntroHeader from './Components/introheader/IntroHeader';
+import Mainpage from './Components/MainPage/Mainpage';
+import Sublink from './Components/Sublink/Sublink';
+import Allheader from './Components/AllHeader/Allheader';
+import Header from "./Components/Header/Header";
+import FilteredBooks from './Components/FilteredBooks/FilteredBooks';
+import FirstFooter from './Components/FirstFooter/FirstFooter';
+// All CSS structured !
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// import "./Components/introheader/IntroHeader.css"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+function Main() {
+  return (
+    <>
+    <Header />
+    <Allheader />
+    <Sublink />
+   <IntroHeader />
+   <Mainpage />
+  <FilteredBooks />
+<FirstFooter />
+    </>
+  )
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+}
+
+ReactDom.render(<Main />, document.getElementById("root"));

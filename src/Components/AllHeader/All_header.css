@@ -1,0 +1,43 @@
+.ham {
+    font-size:  1.2rem !important;
+}
+
+.all {
+    font-weight:  800 !important;
+    padding-left: 4px !important;
+    text-align: center;
+}
+
+.change {
+    background-color:  #232f3e;
+    padding:  0.15rem !important;
+}
+
+.text {
+    color:  white !important;
+}
+.text:hover {
+    text-decoration: none !important;
+}
+.text-hover {
+    padding: 0.5px 3px 0.5px 3px!important;
+    border:  1px solid transparent !important;
+    border-radius:  0.1rem !important;
+    transition:  border .3s ease !important;
+}
+
+.effect {
+    border:  1px solid transparent !important;
+    border-radius:  0.1rem !important;
+    transition:  border .3s ease !important;
+}
+
+.text-hover:hover,
+.effect:hover {
+    border-color: white !important ;
+}
+
+.pad {
+    padding-left: 0.5rem !important ;
+    padding-right:  0.5rem !important;
+}

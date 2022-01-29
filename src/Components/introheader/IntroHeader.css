@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.pageHeader {
+    background-color:  teal !important;
+    width:  100% !important;
+}
+
+.heading {
+    font-size: 3rem !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    width:  20rem !important;
+}

@@ -1,0 +1,13 @@
+.pagination {
+    margin-top:  5px !important;
+    margin-bottom:  25px !important;
+    font-size:  5px !important;
+}
+
+.arrowLeft {
+    padding-right:  5px !important;
+    font-size:  15px !important;
+}
+.page-link {
+    padding:  10px 15px !important;
+}

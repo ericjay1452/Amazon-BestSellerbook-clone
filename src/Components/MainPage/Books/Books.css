@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.border-left {
+    border-left:  1px solid #ddd;
+}
+.card {
+    border:  none !important;
+    color:  red !important;
+}
+
+.ranking {
+    position: absolute;
+    background-color:  orange;
+    width:  2rem;
+    top:  0;
+    left:  0;
+    text-align: center;
+    padding:  3px !important;
+}
