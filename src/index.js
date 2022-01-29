@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import bootstrap from '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 // /import bootstrap from 'bootstrap';
 import IntroHeader from './Components/introheader/IntroHeader';
 import Mainpage from './Components/MainPage/Mainpage';
