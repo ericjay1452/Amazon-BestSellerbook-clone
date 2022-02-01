@@ -9,8 +9,12 @@ import Allheader from './Components/AllHeader/Allheader';
 import Header from "./Components/Header/Header";
 import FilteredBooks from './Components/FilteredBooks/FilteredBooks';
 import FirstFooter from './Components/FirstFooter/FirstFooter';
+import SecondFooter from './Components/SecondFooter/SecondFooter';
+import Thirdfooter from './Components/ThirdFooter/Thirdfooter';
+
 // All CSS structured !
 import './index.css';
+
 // import "./Components/introheader/IntroHeader.css"
 
 function Main() {
@@ -23,6 +27,8 @@ function Main() {
    <Mainpage />
   <FilteredBooks />
 <FirstFooter />
+<SecondFooter />
+<Thirdfooter />
     </>
   )
 
