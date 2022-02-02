@@ -1,0 +1,31 @@
+.footerthird {
+    display: block !important;
+    background-color:  #131A22;
+    padding: 2rem 0 !important;
+}
+
+.firstGrid {
+    width:  80% !important;
+    display: grid;
+    grid-template-columns:  repeat(7, 1fr);
+    margin: auto !important;
+}
+
+.bottomList {
+    padding:  0.6rem !important;
+    list-style: none !important;
+}
+
+.bottom-nav {
+    color:  white !important;
+    font-size:  0.8rem !important;
+    text-decoration: none !important;
+}
+
+.bottomList > ul {
+    list-style: none !important;
+}
+
+.bottomList > ul > a {
+    color:  rgb(161, 161, 161) !important;
+}

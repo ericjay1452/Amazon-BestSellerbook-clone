@@ -1,6 +1,5 @@
 import React from 'react';
-import Logo from "../amazon-dark.png"
-import { BsGlobe } from "react-icons/bs";
+import Logo from "../amazon-dark.png";
 import "./SecondFooter.css"
 
  const  SecondFooter = ()=> {
