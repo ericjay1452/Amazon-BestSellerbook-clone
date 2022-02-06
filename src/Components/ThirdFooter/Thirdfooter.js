@@ -563,14 +563,14 @@ export default class Thirdfooter extends Component {
     <a className="nav-link" aria-current="page" href="/">Conditions of Use</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Privacy Notice</a>
+    <a className="nav-link" href="/">Privacy Notice</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link" href="#">Interest-Based Ads</a>
+    <a className="nav-link" href="/">Interest-Based Ads</a>
   </li>
 
   <li className="nav-item">
-    <span className="at" href="#">© 1996-2022, Amazon.com, Inc. or its affiliates</span>
+    <span className="at" href="/">© 1996-2022, Amazon.com, Inc. or its affiliates</span>
   </li>
   
 </ul>
