@@ -1,11 +1,12 @@
 import React from "react";
 import "./FilteredBook.css"
+import Container from "./Container";
 
 const FilteredBooks = () => {
            return (
                <>
-                <article className="container-fluid">
-                    <div className="row row2 py-3">
+                <section className="container-fluid row2">
+                    <div className="row  py-3">
                         <div className="col-10">
                         <div className="left ms-4">
                                  <h4>Inspired by your Browser History</h4>
@@ -19,8 +20,11 @@ const FilteredBooks = () => {
                         </div>
                            </div>
 
+                           <div className="container mx-auto bg-warning">
+                                 <Container />            
+                           </div>
                     
-                </article>
+                </section>
                </>
            )
 }

@@ -7,7 +7,7 @@ const All_header = () => {
      <div className="container-fluid change">
          <div className="row">
              <div className="col-9">
-                 <nav className="nav pad">
+                 <nav className="nav">
          <li className="nav-item effect">
           <a className="nav-link text pad" aria-current="page" href="/">
               <span className="ham"> <GiHamburgerMenu /></span>

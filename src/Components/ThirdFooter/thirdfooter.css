@@ -4,7 +4,7 @@
     padding: 2rem 0 !important;
 }
 
-.firstGrid {
+.Grid {
     width:  80% !important;
     display: grid;
     grid-template-columns:  repeat(7, 1fr);
@@ -22,10 +22,24 @@
     text-decoration: none !important;
 }
 
-.bottomList > ul {
+.bottomList  ul {
     list-style: none !important;
 }
 
-.bottomList > ul > a {
+.bottomList  ul  a {
     color:  rgb(161, 161, 161) !important;
+    text-align: center !important;
+    text-decoration: none !important;
+}
+
+.bottomList :hover {
+    text-decoration: underline !important;
+}
+
+.centerd .nav-link,
+.at {
+    color: white !important;
+    padding-left:  .5rem !important;
+    padding-right:  .5rem !important;
+    font-size:  .6rem !important;
 }

@@ -6,7 +6,7 @@ export default class Thirdfooter extends Component {
     return (
         <>
           <footer className='footerthird'>
-              <div className="firstGrid">
+              <div className="Grid">
               <ul className="bottomList">
                   <li>
                       <a href="/" className="bottom-nav">
@@ -554,9 +554,28 @@ export default class Thirdfooter extends Component {
                       </a>
                   </li>
               </ul>
-
               </div>
 
+<div className="copyright container mx-auto mt-3 position-relative">
+    <section className="copyrightsection">
+    <ul className="nav justify-content-center p-2 centerd">
+  <li className="nav-item">
+    <a className="nav-link" aria-current="page" href="/">Conditions of Use</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Privacy Notice</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Interest-Based Ads</a>
+  </li>
+
+  <li className="nav-item">
+    <span className="at" href="#">© 1996-2022, Amazon.com, Inc. or its affiliates</span>
+  </li>
+  
+</ul>
+    </section>
+</div>
           </footer>
         </>
     );

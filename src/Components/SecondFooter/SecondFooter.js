@@ -18,9 +18,9 @@ import "./SecondFooter.css"
             <article className="second">
             
              <button type='button' className='globe'>
-             <i class="fas fa-globe" style={{display : "block"}}></i>
+             <i className="fas fa-globe" style={{display : "block"}}></i>
              <p className='english'>English</p>
-             <i class="fas fa-sort-up" style={{display: "block"}}></i>
+             <i className="fas fa-sort-up" style={{display: "block"}}></i>
              </button>
 
              <button type='button'> 

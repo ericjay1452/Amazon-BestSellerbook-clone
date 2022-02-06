@@ -1,4 +1,42 @@
 
 .header {
     background-color: #131921 !important;
+    padding:  .50rem !important;
+    font-size:  0.8rem !important;
+}
+
+.flexcontainer {
+    display:  flex;
+    width:  100% !important;
+    position: relative;
+    color:  white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-controller {
+    width:  55% !important;
+}
+
+.lap {
+    width:  100% !important;
+}
+
+.form {
+    height:  2.5rem !important;
+}
+
+#button {
+    margin:  0 !important;
+    background-color:  orange;
+    border: none !important;
+    padding:  .6rem 1.1rem !important;
+}
+
+#select {
+    border:  none !important;
+    padding:  .5rem .2rem !important;
+    color:  inherit !important;
+    background-color:  inherit !important;
+    border-radius:  0 !important;
 }

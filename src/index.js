@@ -7,10 +7,11 @@ import Mainpage from './Components/MainPage/Mainpage';
 import Sublink from './Components/Sublink/Sublink';
 import Allheader from './Components/AllHeader/Allheader';
 import Header from "./Components/Header/Header";
-import FilteredBooks from './Components/FilteredBooks/FilteredBooks';
+import FilteredBookC from './Components/FiltereBookContainer/FilteredBookC';
 import FirstFooter from './Components/FirstFooter/FirstFooter';
 import SecondFooter from './Components/SecondFooter/SecondFooter';
-import Thirdfooter from './Components/ThirdFooter/Thirdfooter';
+ import Thirdfooter from './Components/ThirdFooter/Thirdfooter';
+
 
 // All CSS structured !
 import './index.css';
@@ -25,10 +26,11 @@ function Main() {
     <Sublink />
    <IntroHeader />
    <Mainpage />
-  <FilteredBooks />
+   <FilteredBookC />
 <FirstFooter />
 <SecondFooter />
-<Thirdfooter />
+ <Thirdfooter />
+
     </>
   )
 
